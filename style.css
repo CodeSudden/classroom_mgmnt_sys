@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap');
+
+body{
+  font-family: 'Arimo', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.397)), url(pictures/indexbg.jpg);
+  background-size: cover;
+}
+
+h2{
+  color:rgb(255, 255, 255);
+  text-align:center;
+  font-size:6em;
+  text-shadow: 10px 6px 8px rgb(12, 8, 8);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.warpper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panels{
+  background:#ffffff;
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:200px;
+  width:100%;
+  max-width:500px;
+  border-radius:10px;
+  overflow:hidden;
+  padding:20px;  
+  text-align: center;
+  font-size: 21px;
+}
+
+.textbox{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
+.panel-title{
+  font-size:1.5em;
+  font-weight:bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+input[type="text"], input[type=password]{
+  width: 100px;
+}
+
+input[type=submit]{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+input[type=submit]:hover{
+  background-color: rgb(60, 158, 77);
+}
+
